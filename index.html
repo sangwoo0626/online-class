@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>2-2 시간표</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" type="image/x-icon" href="꽃팡이.png">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EV7KPXBCDV"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-EV7KPXBCDV');
+        </script>
+    </head>
+    <body>
+        <div class="main_container">
+            <div class="now">
+                <h1 id="clock" style="color: salmon; margin-right: 0px;" >00:00</h1><h1 class="nowClass">지금은?</h1>
+            </div>
+            <div class="sub_container">         
+                <h1 style="margin-top: 0px;"><span id='title_Day'></span>요일 시간표</h1>
+                <div class="table">
+                    <div class="mon">
+                    <h3>과목을 눌러 줌으로 들어가세요.</h3>
+                    <div>
+                        <div class="t"><div style="margin-top: 5px;">1교시</div>
+                        <a class="h" href="zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo">1</a></div>
+                        </div>
+                    <span>
+                        <div class="t"><span>2교시</span>
+                        <a href="zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo" class="h">2</a></div>
+                    </span> 
+                    <span>
+                        <div class="t"><span>3교시</span>
+                        <a href="https://meet.google.com/xkx-qirv-kqo" class="h">3</a></div>
+                    </span>
+                    <span>
+                        <div class="t"><span>4교시</span>
+                        <a href="zoommtg://zoom.us/join?action=join&confno=8792076928&pwd=dimigo" class="h">4</a></div>
+                    </span>
+                    <span class="lunch">
+                        점심시간
+                    </span>
+                    <span>
+                        <div class="t"><span>5교시</span>
+                        <a href="zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo" class="h">5</a></div>
+                    </span>
+                    <span>
+                        <div class="t"><span>6교시</span>
+                        <a href="zoommtg://zoom.us/join?action=join&confno=8134411742&pwd=dimigo" class="h">6</a></div>
+                    </span>
+                    <span>
+                        <div class="t"><span>7교시</span>
+                        <a href="zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo" class="h">7</a></div>
+                    </span>
+                    <p class="up"><a class="hr" href="zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo">조회 종례</a> 들어가기</p>  
+                </div>
+                </div>
+            </div>
+        </div>
+            <div class="foot">
+                <input type="button" value="전체시간표 보러가기" onclick="location.href='index_1.html' "class="back_2">
+                <input id="change" value="정보처리 프로그래밍" type="button" onclick="otherSubjects()">
+            </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+    </html>
