@@ -73,23 +73,14 @@ const links = {
     "zoommtg://zoom.us/join?action=join&confno=8792076928&pwd=dimigo",//수학
     "index.html",//음콘
   ],
-  // 수요일: [
-  //  "zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo",//마케팅
-  //  "index.html", //음콘
-  //  "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo",// 회계
-  //  "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo",// 회계
-  //  "zoommtg://zoom.us/join?action=join&confno=8792076928&pwd=dimigo",// 수학
-  //  "", //CA
-  //  ""],
-  수요일: [
-    "index.html",//플밍
-    "zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo",//마케팅
-    "zoommtg://zoom.us/join?action=join&confno=7126847915&pwd=dimigo",//영어
-    "index.html",//중국어
-    "index.html",//문학
-    "index.html",//회계
-    "index.html",//회계
-  ],
+  금요일: [
+   "zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo",//마케팅
+   "index.html", //음콘
+   "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo",// 회계
+   "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo",// 회계
+   "zoommtg://zoom.us/join?action=join&confno=8792076928&pwd=dimigo",// 수학
+   "", //CA
+   ""],
   목요일: [
     "zoommtg://zoom.us/join?action=join&confno=8179896337&pwd=dimigo",//광콘
     "zoommtg://zoom.us/join?action=join&confno=8179896337&pwd=dimigo",//광콘
@@ -99,7 +90,7 @@ const links = {
     "zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo",//진로
     "zoommtg://zoom.us/join?action=join&confno=3490119479&pwd=dimigo",//체육
   ],
-  금요일: [
+  수요일: [
     "zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo",//중국어
     "zoommtg://zoom.us/join?action=join&confno=7054578862&pwd=dimigo",//문학
     "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo",//회계
@@ -148,22 +139,13 @@ const otherLinks = {
     "zoommtg://zoom.us/join?action=join&confno=4679526373&pwd=py2020",//플밍
   ],
 
-  // 수요일: ["zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo",//마케팅
-  //  "zoommtg://zoom.us/join?action=join&confno=4679526373&pwd=py2020", //플밍
-  //  "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo", //회계
-  //  "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo", //회계
-  //  "zoommtg://zoom.us/join?action=join&confno=8792076928&pwd=dimigo", //수학
-  //  "index.html", //CA
-  //  "index.html" //수업없음
-  // ],
-  수요일: [
-    "zoommtg://zoom.us/join?action=join&confno=4679526373&pwd=py2020",//플밍
-    "zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo",//마케팅
-    "zoommtg://zoom.us/join?action=join&confno=7126847915&pwd=dimigo",//영어
-    "index.html",//중국어
-    "index.html",//문학
-    "index.html",//회계
-    "index.html",//회계
+  금요일: ["zoommtg://zoom.us/join?action=join&confno=3154650453&pwd=dimigo",//마케팅
+   "zoommtg://zoom.us/join?action=join&confno=4679526373&pwd=py2020", //플밍
+   "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo", //회계
+   "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo", //회계
+   "zoommtg://zoom.us/join?action=join&confno=8792076928&pwd=dimigo", //수학
+   "index.html", //CA
+   "index.html" //수업없음
   ],
   목요일: [
     "zoommtg://zoom.us/join?action=join&confno=5363759347&pwd=dimigo",//정보처리
@@ -174,7 +156,7 @@ const otherLinks = {
     "zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo",//진로
     "zoommtg://zoom.us/join?action=join&confno=3490119479&pwd=dimigo",//체육
   ],
-  금요일: [
+  수요일: [
     "zoommtg://zoom.us/join?action=join&confno=7722593481&pwd=dimigo",//중국어
     "zoommtg://zoom.us/join?action=join&confno=7054578862&pwd=dimigo",//문학
     "zoommtg://zoom.us/join?action=join&confno=5379758850&pwd=dimigo",//회계
@@ -231,10 +213,9 @@ function setInnerHTML() {
 const timeTable={
   월요일: ["마케팅", "중국어", "음콘", "수학", "진로", "문학", "HR"],
   화요일: ["광콘", "광콘", "체육", "수학", "마케팅", "영어", "음콘"],
-  // 수요일: ["마케팅", "음콘", "회계", "회계", "수학", "CA", "자습"],
-  수요일: ["음콘", "마케팅", "영어", "", "", "", ""],
+  금요일: ["마케팅", "음콘", "회계", "회계", "수학", "CA", "자습"],
   목요일: ["광콘", "광콘", "문학", "중국어", "영어", "진로", "체육"],
-  금요일: ["중국어", "문학", "회계", "회계", "음콘", "마케팅", "영어"],
+  수요일: ["중국어", "문학", "회계", "회계", "음콘", "마케팅", "영어"],
   토요일: ["자습", "자습", "자습", "자습", "자습", "자습", "자습"],
   일요일: ["자습", "자습", "자습", "자습", "자습", "자습", "자습"]
 };
@@ -242,10 +223,9 @@ const timeTable={
 const otherTimeTable={
   월요일: ["마케팅", "중국어", "플밍", "수학", "진로", "문학", "HR"],
   화요일: ["정처", "정처", "체육", "마케팅", "영어", "수학", "플밍"],
-  수요일: ["마케팅", "플밍", "회계", "회계", "수학", "CA", "자습"],
-  수요일: ["플밍", "마케팅", "영어", "", "", "", ""],
+  금요일: ["마케팅", "플밍", "회계", "회계", "수학", "CA", "자습"],
   목요일: ["정처", "정처", "문학", "중국어", "영어", "진로", "체육"],
-  금요일: ["중국어", "문학", "회계", "회계", "플밍", "마케팅", "영어"],
+  수요일: ["중국어", "문학", "회계", "회계", "플밍", "마케팅", "영어"],
   토요일: ["자습", "자습", "자습", "자습", "자습", "자습", "자습"],
   일요일: ["자습", "자습", "자습", "자습", "자습", "자습", "자습"]
 };
